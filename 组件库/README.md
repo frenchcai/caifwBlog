@@ -62,7 +62,7 @@ createApp(App).use(vgUI).mount("#app");
 <vg-button type="strict" :plain="false" :round="true">严肃按钮</vg-button>
 ```
 
-![button 1](/../images/components/button/b1.png)
+![button 1](../images/components/button/b1.png)
 
 ### 禁用状态
 
@@ -88,7 +88,7 @@ createApp(App).use(vgUI).mount("#app");
 <vg-button type="strict" :disabled="true" :plain="true">严肃按钮</vg-button>
 ```
 
-![button 1](/../images/components/button/b2.png)
+![button 1](../images/components/button/b2.png)
 
 ### 图标按钮
 
@@ -99,7 +99,7 @@ createApp(App).use(vgUI).mount("#app");
 <vg-button type="strict" icon="vg-icon-delete">严肃按钮</vg-button>
 ```
 
-![button 1](/../images/components/button/b3.png)
+![button 1](../images/components/button/b3.png)
 
 ### 加载中
 
@@ -115,7 +115,7 @@ createApp(App).use(vgUI).mount("#app");
 <vg-button type="info" :loading="true">信息按钮</vg-button>
 ```
 
-![button 1](/../images/components/button/b5.png)
+![button 1](../images/components/button/b5.png)
 
 ### 不同尺寸
 
@@ -130,7 +130,7 @@ Button 组件提供除了默认值以外的三种尺寸，可以在不同场景�
 <vg-button type="success" size="large">大型按钮</vg-button>
 ```
 
-![button 1](/../images/components/button/b4.png)
+![button 1](../images/components/button/b4.png)
 
 ### Attributes
 
@@ -184,7 +184,7 @@ Dialog 弹出一个对话框，适合需要自定义内容框架的场景。
 </script>
 ```
 
-![button 1](/../images/components/dialog/d1.png)
+![button 1](../images/components/dialog/d1.png)
 
 ### 居中布局
 
@@ -224,7 +224,7 @@ Dialog 弹出一个对话框，适合需要自定义内容框架的场景。
 </script>
 ```
 
-![button 1](/../images/components/dialog/d2.png)
+![button 1](../images/components/dialog/d2.png)
 
 ### 自定义高度和宽度
 
@@ -263,7 +263,7 @@ dialog 默认宽度是 50%，相对高度是 15vh，可以通过 width 和 top �
 </script>
 ```
 
-![button 1](/../images/components/dialog/d3.png)
+![button 1](../images/components/dialog/d3.png)
 
 ### Attributes
 | 参数      | 说明          | 类型      | 可选值                           | 默认值  |
@@ -288,8 +288,8 @@ dialog 默认宽度是 50%，相对高度是 15vh，可以通过 width 和 top �
 
 
 除此之外，我们提供了以下的icon 供大家使用
-![button 1](/../images/components/icon/i1.png)
-![button 1](/../images/components/icon/i2.png)
-![button 1](/../images/components/icon/i3.png)
-![button 1](/../images/components/icon/i4.png)
-![button 1](/../images/components/icon/i5.png)
+![button 1](../images/components/icon/i1.png)
+![button 1](../images/components/icon/i2.png)
+![button 1](../images/components/icon/i3.png)
+![button 1](../images/components/icon/i4.png)
+![button 1](../images/components/icon/i5.png)
