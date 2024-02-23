@@ -1,8 +1,9 @@
+const path = require("path")
 module.exports = {
   title: "一旬博客空间",
   description: "微信搜索 [优趣知识星球]关注我，更多精彩内容早知道",
   cache: false,
-  base: '/caifwBlogs/', // 使用相对路径，读取相对路径下的静态文件
+  base: '/caifwBlog/', // 使用相对路径，读取相对路径下的静态文件
   markdown: {
     // 开启代码块的行号
     lineNumbers: true,
@@ -12,6 +13,7 @@ module.exports = {
   head:[
     ['meta', { name: 'referrer', content: 'no-referrer' }] // 设置页面关键字
   ],
+  dest:"../caifwBlog/docs",
   themeConfig: {
     nav: [
       {
