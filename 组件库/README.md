@@ -2,6 +2,9 @@
 
 vigo-ui 组件库，是基于工作中，借鉴 elementUI、实战开发中沉淀的组件库，基于 vue3 开发，现提供 button、dialog、icon 组件，后续将持续提供更多功能组件，敬请期待
 
+## github地址
+
+[vigo-ui-caifw](https://gitee.com/ten_days/vigo-ui/)
 ## 安装
 
 ### npm 安装

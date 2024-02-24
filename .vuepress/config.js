@@ -192,8 +192,8 @@ module.exports = {
               path:"/大前端/react/",
               children:[
                 {
-                  title:"从0到1搭建react 工程化前端项目",
-                  path:"/大前端/react/从0到1搭建react 工程化前端项目"
+                  title:"从0到1搭建react工程化前端项目",
+                  path:"/大前端/react/从0到1搭建react工程化前端项目"
                 }
               ]
             },
@@ -201,29 +201,22 @@ module.exports = {
               title:"vue",
               path:"/大前端/vue/",
               children:[
+              
                 {
-                  title:"vue-Mixis的理解与应用",
-                  path:"/大前端/vue/vue-Mixis的理解与应用"
+                  title:"vue2框架运行原理剖析系列1",
+                  path:"/大前端/vue/vue2框架运行原理剖析系列1"
                 },
                 {
-                  title:"vue-router 在没有用户交互情况下，执行push ，无法返回上一个页面？",
-                  path:"/大前端/vue/vue-router 在没有用户交互情况下，执行push ，无法返回上一个页面？"
-                },
-                {
-                  title:"vue2 框架运行原理剖析系列（一）",
-                  path:"/大前端/vue/vue2 框架运行原理剖析系列（一）之 new Vue()实例化过程到底做了什么！！！"
-                },
-                {
-                  title:"vue2 框架运行原理剖析系列（二）",
-                  path:"/大前端/vue/vue2 框架运行原理剖析系列（二）之 组件挂载$mount神秘之旅！！！"
-                },
-                {
-                  title:"vue-Mixis的理解与应用",
-                  path:"/大前端/vue/vue-Mixis的理解与应用"
+                  title:"vue2框架运行原理剖析系列2",
+                  path:"/大前端/vue/vue2框架运行原理剖析系列2"
                 },
                 {
                   title:"vue3系列--reactive实现细节",
                   path:"/大前端/vue/vue3系列--reactive实现细节"
+                },
+                {
+                  title:"vue-Mixis的理解与应用",
+                  path:"/大前端/vue/vue-Mixis的理解与应用"
                 },
                 {
                   title:"vue实现全局消息提醒功能（vue-extend）",
@@ -238,13 +231,17 @@ module.exports = {
                   path:"/大前端/vue/vue组件data是一个函数的原理"
                 },
                 {
-                  title:"终于把 vue-router 运行原理讲明白了（一）！！！",
-                  path:"/大前端/vue/终于把 vue-router 运行原理讲明白了（一）！！！"
+                  title:"vue-router运行原理1",
+                  path:"/大前端/vue/vue-router运行原理1"
                 },
                 {
-                  title:"终于把 vue-router 运行原理讲明白了（二）！！！",
-                  path:"/大前端/vue/终于把 vue-router 运行原理讲明白了（二）！！！"
-                }
+                  title:"vue-router运行原理2",
+                  path:"/大前端/vue/vue-router运行原理2"
+                },
+                {
+                  title:"vue-router 的一个bug",
+                  path:"/大前端/vue/vue-router 在没有用户交互情况下，执行push ，无法返回上一个页面？"
+                },
               ]
             }
           ]
