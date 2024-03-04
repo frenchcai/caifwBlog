@@ -77,9 +77,15 @@ Content-Length: 131
  - contenthash
 	[contenthash] 只有`当前文件内容发生改动`，`hash值才会发生变化`。这有助于确保只有当`文件内容发生变化时`，文件名才会改变，从而有效地利用浏览器缓存。
  - chunkhash
- [chunkhash] 在一个文件中，如果`被依赖的模块`或`引入的文件资源`，`发生变化时`，`hash 值发生变化`，而如果`文件本身自己内容发生改动`，`hash值是不会变化`的。
+ [chunkhash] chunkHash，是根据 webpack 配置入口，来生成hash，在同一个入口文件的所有依赖，hash值都一样，如果是另外的入口文件和依赖，则是其他的hash值。同时，如果某一个入口文件或其依赖文件内容发生变化，整一个和入口相关的文件hash都会变化。
 
+比如下面的webpack配置，入口有两个，main.js 和 console.js, 其中 main.js 还引入了main.css
+![在这里插入图片描述](https://img-blog.csdnimg.cn/direct/6078bbd9955d4bc6a1ff778034d0fb5b.png)
+最终打包后文件名称如下：
 
+![在这里插入图片描述](https://img-blog.csdnimg.cn/direct/3b42c6d0cc374b279137fbae1dff1377.png)
+在`main.js 文件和main.css`(以main.js 入口及其依赖文件）`hash 值都一样`，而`console.js hash不一样`
+`如果我们修改 main.css 文件后`，再次打包，`main.js 和main.css hash`会`再次改变`， 而以console 相关的则没有改变。
 #### 配置webpack打包
 我们可以通过手动配置webpack 输出文件名，将【hash】修改为【contenthash】来优化。
 
